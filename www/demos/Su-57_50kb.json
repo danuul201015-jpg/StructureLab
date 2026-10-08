@@ -1,0 +1,12 @@
+{
+  "file": "Su-57_50kb.structure",
+  "bytes": 46929,
+  "limit": 50000,
+  "blocks": 1085,
+  "merged": 18,
+  "sourceTriangles": 2366,
+  "reducedTriangles": 1103,
+  "colorTable": true,
+  "rotationTable": false,
+  "ms": 280
+}

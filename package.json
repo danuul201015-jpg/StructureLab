@@ -1,0 +1,25 @@
+{
+  "name": "structurelab",
+  "productName": "StructureLab",
+  "version": "0.1.0",
+  "description": "StructureLab — конвертер Sandbox World (Windows)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.structurelab.app",
+    "productName": "StructureLab",
+    "directories": { "output": "dist" },
+    "files": ["main.js", "preload.js", "www/**/*"],
+    "win": {
+      "target": [{ "target": "portable", "arch": ["x64"] }],
+      "icon": null
+    }
+  }
+}
